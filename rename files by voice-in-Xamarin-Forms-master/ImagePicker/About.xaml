@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ImagePicker.About"  Title="About">
+    <ContentPage.Content>
+        <StackLayout HorizontalOptions="Start">
+            <Label Text="
+Name:Rename Pictures By Voice"
+
+                />
+
+            <Label Text="
+Email: rename.pictures@gmail.com"
+                />
+
+
+          
+
+
+            <!--<Label>
+                <Label.FormattedText>
+                    <FormattedString>
+                        <Span Text="Web: " />
+                        <Span Text="https://ocrarabic.com"
+                  TextColor="Blue"
+                >
+                            <Span.GestureRecognizers>
+                                <TapGestureRecognizer Command="{Binding TapCommand}"
+                                          CommandParameter="https://www.ocrarabic.com" />
+                            </Span.GestureRecognizers>
+                        </Span>
+                        <Span Text="." />
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>-->
+
+
+
+
+
+
+           
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

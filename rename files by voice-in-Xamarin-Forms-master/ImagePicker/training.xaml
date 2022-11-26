@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:ImagePicker"
+             x:Class="ImagePicker.training"         Title="Training Voice">
+
+    <StackLayout Margin="10,50,10,10">
+        <Button
+            x:Name="start2"
+            Text="Start"
+                Clicked="Start2_Clicked"
+            
+            FontSize="Default" Font="20" FontAttributes="Bold"   BackgroundColor="Blue"   TextColor="White" WidthRequest="300" HeightRequest="60" BorderRadius="20" 
+                    />
+        <Label 
+            x:Name="recon2"
+            Text="Recognized text" 
+           HorizontalOptions="Center"
+           VerticalOptions="Center" />
+
+       
+
+    </StackLayout>
+
+</ContentPage>
