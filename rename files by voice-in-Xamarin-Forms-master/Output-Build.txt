@@ -1,3 +1,0 @@
-﻿1>------ Skipped Deploy: Project: ImagePicker.Android, Configuration: Debug Any CPU ------
-1>Project not selected to build for this solution configuration 
-========== Deploy: 0 succeeded, 0 failed, 1 skipped ==========
